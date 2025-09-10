@@ -1,22 +1,33 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f5f5f5;
-}
-
+/* Navbar minimalista con iconos */
 .navbar {
   display: flex;
-  gap: 20px;
-  background: black;
-  padding: 15px;
+  justify-content: center;
+  gap: 32px;
+  background: #111;
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
-.navbar a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+.nav-item {
+  color: #f5f5f5;
+  font-size: 1.5rem;
+  transition: color 0.3s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 8px;
 }
 
-h1 {
-  color: #333;
+.nav-item:hover {
+  color: #fff;
+  background: #222;
+  transform: scale(1.1);
+}
+
+/* Para contenido */
+.main-content {
+  padding: 20px;
 }

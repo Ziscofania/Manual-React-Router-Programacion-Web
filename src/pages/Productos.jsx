@@ -9,7 +9,9 @@ export default function Productos() {
     { id: 4, nombre: "Camisa de Cuadros para Hombre", precio: 89900, imagen: "https://arturocalle.vtexassets.com/arquivos/ids/692908-1200-1600?v=638748101565170000&width=1200&height=1600&aspect=true" },
     { id: 5, nombre: "Tenis para Hombre", precio: 259900, imagen: "https://arturocalle.vtexassets.com/arquivos/ids/752371-1200-1600?v=638859621221070000&width=1200&height=1600&aspect=true" },
     { id: 6, nombre: "Polo Unicolor Básica para Hombre", precio: 129900, imagen: "https://arturocalle.vtexassets.com/arquivos/ids/762316-1200-1600?v=638888098434730000&width=1200&height=1600&aspect=true" },
+    { id: 6, nombre: "Polo Unicolor Básica para Hombre", precio: 129900, imagen: "https://arturocalle.vtexassets.com/arquivos/ids/762316-1200-1600?v=638888098434730000&width=1200&height=1600&aspect=true" },
   ];
+  
 
   return (
     <div className="productosContainer">

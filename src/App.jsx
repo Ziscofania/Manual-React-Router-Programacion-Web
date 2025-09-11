@@ -5,6 +5,7 @@ import Login from "./pages/Login";
 import Productos from "./pages/Productos";
 import Carrito from "./pages/Carrito";
 import Compra from "./pages/Compra";
+import ReceiptConfirmation from "./pages/FinalizarCompraTicket"; // ✅ Importar el ticket
 import "./styles/global.css";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route path="/productos" element={<Productos />} />
           <Route path="/carrito" element={<Carrito />} />
           <Route path="/compra/:id" element={<Compra />} />
+          <Route path="/FinalizarCompraTicket" element={<ReceiptConfirmation />} /> {/* ✅ Ruta confirmación */}
         </Routes>
       </main>
     </div>

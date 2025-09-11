@@ -14,7 +14,7 @@ export default function Background() {
     const particles = [];
 
     // Crear partículas
-    for (let i = 0; i < 80; i++) {
+    for (let i = 0; i < 250; i++) {
       particles.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
@@ -55,7 +55,7 @@ export default function Background() {
           ctx.beginPath();
           ctx.moveTo(p.x, p.y);
           ctx.lineTo(mouse.x, mouse.y);
-          ctx.strokeStyle = "rgba(255,255,255,0.3)";
+          ctx.strokeStyle = "rgba(15, 187, 255, 0.6)";
           ctx.stroke();
         }
       });
